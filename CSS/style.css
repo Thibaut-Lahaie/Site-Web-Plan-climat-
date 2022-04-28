@@ -1,0 +1,199 @@
+html{
+    background-color : white;
+}
+
+nav{
+    top : 0%;
+    position :fixed;
+    z-index : 100;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    
+    
+}
+
+#navigateur {
+	list-style-type: none;
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.90);
+    backdrop-filter: opacity(90%);
+    display : flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+#navigateur li {
+    height: 150%;
+    
+}
+
+#navigateur a {
+    font-family: fantasy;
+    font-size: 150%;
+    color: black;
+    margin-right: 3em;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+
+#navigateur a:hover:not(.active){
+    background-color: #035676;
+}
+
+header{
+    z-index : -1;
+    position: fixed;
+    top : 17%;
+    left : 50%;
+    transform:  translate(-50%, -50%);
+    
+}
+
+
+#section1{
+    overflow: hidden;
+    z-index : 51;
+    position : relative;
+    margin: 14% 10% 0% 10%;
+    font-size: 125%;
+    background-color: whitesmoke;
+    
+}
+
+.section2{
+    overflow: hidden;
+    z-index : 51;
+    position : relative;
+    margin: 2% 10% 2% 10%;
+    font-size: 125%;
+    background-color: whitesmoke;
+}
+
+footer{
+    overflow: hidden;
+    z-index : 50;
+    position : relative;
+    margin: 0% 4% 0% 4%;
+    text-align: center;
+    font-size: 100%;
+}
+
+
+.boite{
+    z-index : 49;
+    position: relative;
+    margin: 1em 3% 3% 3%;
+    width: 94%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.texte{
+    font-size: 85%;
+}
+
+.texte2{
+    font-size: 85%;
+    color : red;
+}
+
+.texte3{
+    text-align: center;
+    color : red;
+}
+
+.image{
+    width: 50%;
+    margin-left : 25%;
+    
+}
+
+.carte{
+    width: 30%;
+    margin-left : 15%;
+    margin-top : -18%;
+    
+}
+
+.logo{
+    width: 15%;
+    margin-left : 65%;
+    
+}
+
+#white{
+    z-index: 48;
+    background-color: white;
+}
+
+#Rove{
+    background-color: #9FD620 ;
+}
+
+#Cuques{
+    background-color: #A4E0D0 ;
+}
+
+#Allo{
+    background-color: #00AFF0 ;
+}
+
+#Marseille{
+    background-color: #F1441F ;
+}
+
+#Marignane{
+    background-color: #9FD620 ;
+}
+
+#Home{
+    background-color: #A4E0D0;
+    
+}
+
+body{
+    margin-right: 8px;
+    min-width: 1000px;
+}
+
+.Haut{
+    font-size : 140%;
+    border : 2px solid black;
+    text-decoration: none;
+    color : Black;
+    
+}
+
+@media screen and (max-width: 640px) {
+    #section1{
+        margin: 6% 10% 0% 10%;
+    }
+    
+    #navigateur a {
+        margin-right: 0.5em;
+        font-size: 190%;
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+    
+    h1{
+        font-size : 200%;
+    }
+    
+    .texte{
+        font-size :150%;
+    }
+    
+    body{
+        zoom : 40%;
+    }
+    
+}
+
+@media screen and (max-width: 950px) {
+    header{
+        display: none;
+    }
+}
